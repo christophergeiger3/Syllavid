@@ -48,3 +48,9 @@ img {
     cursor: pointer;
     border-radius: 6px;
 }
+
+#main_img {
+  -webkit-box-shadow: 10px 10px 87px 14px rgba(0,0,0,0.28);
+  -moz-box-shadow: 10px 10px 87px 14px rgba(0,0,0,0.28);
+  box-shadow: 10px 10px 87px 14px rgba(0,0,0,0.28);
+}
