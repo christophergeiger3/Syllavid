@@ -1,23 +1,22 @@
-body
-{
+body {
     font-size: 24px;
     font-family: Arial, Helvetica, sans-serif;
     /* background: linear-gradient(to bottom, #ffffff 0%, #3399ff 100%); */
 }
 
 img {
-  display: block;
-  max-width: 100%;
-  height: auto;
+    display: block;
+    max-width: 100%;
+    height: auto;
 }
 
 .fa {
-  padding: 20px;
-  font-size: 30px;
-  width: 75px;
-  text-align: center;
-  text-decoration: none;
-  margin: 5px 10px;
+    padding: 20px;
+    font-size: 30px;
+    width: 75px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 10px;
 }
 
 .fa:hover {
@@ -25,65 +24,33 @@ img {
 }
 
 .fa-facebook {
-  background: #3B5998;
-  color: white;
+    background: #3B5998;
+    color: white;
 }
 
 .fa-twitter {
-  background: #55ACEE;
-  color: white;
+    background: #55ACEE;
+    color: white;
 }
 
 .fa-google {
-  background: #dd4b39;
-  color: white;
+    background: #dd4b39;
+    color: white;
 }
 
 .fa-linkedin {
-  background: #007bb5;
-  color: white;
+    background: #007bb5;
+    color: white;
 }
 
 .navbar {
-  -webkit-box-shadow: 10px 10px 5px -6px rgba(0,0,0,0.2);
-  -moz-box-shadow: 10px 10px 5px -6px rgba(0,0,0,0.2);
-  box-shadow: 10px 10px 5px -6px rgba(0,0,0,0.2);
-}
-.header-bar
-{
-    margin-top: 4em;
-}
-
-.header-bar .header
-{
-    float: left;
-    font-size: 2.2em;
-    color: #3b39d3;
-    margin-left: 10%;
-    display: inline;
-}
-
-.header-bar .right
-{
-    float: right;
-    display: inline;
-}
-
-.courses-button
-{
-    background-color: #3b39d3;
-    border: none;
-    color: white;
-    padding: 10px;
-    text-align: center;
-    text-decoration: none;
-    font-size: 0.667em;
-    cursor: pointer;
-    border-radius: 6px;
+    -webkit-box-shadow: 10px 10px 5px -6px rgba(0,0,0,0.2);
+    -moz-box-shadow: 10px 10px 5px -6px rgba(0,0,0,0.2);
+    box-shadow: 10px 10px 5px -6px rgba(0,0,0,0.2);
 }
 
 #main_img {
-  -webkit-box-shadow: 10px 10px 87px 14px rgba(0,0,0,0.28);
-  -moz-box-shadow: 10px 10px 87px 14px rgba(0,0,0,0.28);
-  box-shadow: 10px 10px 87px 14px rgba(0,0,0,0.28);
+    -webkit-box-shadow: 10px 10px 87px 14px rgba(0,0,0,0.28);
+    -moz-box-shadow: 10px 10px 87px 14px rgba(0,0,0,0.28);
+    box-shadow: 10px 10px 87px 14px rgba(0,0,0,0.28);
 }
