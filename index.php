@@ -20,7 +20,7 @@
     <body>
         <nav class="navbar navbar-inverse">
             <div class="navbar-header">
-                <a class="navbar-brand" href="#">Syllavid</a>
+                <a class="navbar-brand   text-primary" href="#">Syllavid</a>
             </div>
             <button type="button" class="btn btn-primary">Video Courses</button>
         </nav>
@@ -44,8 +44,5 @@
                 <a href="#" class="fa fa-linkedin"></a>
             </div>
         </section>
-        <section class="text-center">
-        </section>
-        <br></br>
     </body>
 </html>
