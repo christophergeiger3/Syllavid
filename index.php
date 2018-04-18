@@ -33,7 +33,7 @@
             <div class="container">
                 <h1 class="jumbotron-heading">Syllavid</h1>
                 <p class="lead text-muted">Videos from the best in your field, free, on demand, forever.<p>
-                    <a href="#" class="btn btn-primary my-2">Learn More</a>
+                    <a href="/example" class="btn btn-primary my-2">Learn More</a>
                     <a href="#" class="btn btn-secondary my-2">Contact Us</a>
                 </p>
             </div>
