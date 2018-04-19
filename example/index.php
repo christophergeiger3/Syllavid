@@ -10,17 +10,12 @@
         <!-- /JQuery -->
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <link rel="stylesheet" type="text/css" href="stylesheet.css">
+        <link rel="stylesheet" type="text/css" href="../stylesheet.css">
         <!--<link rel="icon" type="image/png" href="assets/icon.png">-->
         <title>Syllavid</title>
     </head>
     <body>
-        <nav class="navbar navbar-inverse">
-            <div class="navbar-header">
-                <a class="navbar-brand" href="#">Syllavid</a>
-            </div>
-            <button type="button" class="btn btn-primary">Video Courses</button>
-        </nav>
+        <?php include_once('../navbar.php'); ?>
         <section>
             <div class="container">
 
