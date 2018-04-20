@@ -3,7 +3,7 @@
     <head>
         <title>Syllavid</title>
         <!--<link rel="icon" type="image/png" href="assets/icon.png">-->
-        <link rel="stylesheet" type="text/css" href="stylesheet.css">
+        <link rel="stylesheet" type="text/css" href="/syllavid/stylesheet.css">
         
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -20,9 +20,9 @@
     </head>
     <body>
         <?php include_once('navbar.php'); ?>
-        <section class="jumbotron">
-            <div id="main_img_row" class="container">
-                <img src="img/elon_musk.gif" class="mx-auto" id="main_img" />
+        <section class="jumbotron" style="padding: 2em">
+            <div class="container">
+                <img src="img/elon_musk.gif" class="mx-auto img-responsive" id="main_img" width="600" />
             </div>
         </section>
         <section class="text-center" id="main_logo">
