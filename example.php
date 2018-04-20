@@ -19,7 +19,7 @@
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     </head>
     <body>
-        <?php include_once('../navbar.php'); ?>
+        <?php include_once('navbar.php'); ?>
         <section>
             <div class="container">
 

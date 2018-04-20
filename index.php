@@ -19,10 +19,10 @@
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     </head>
     <body>
-        <?php include_once('/navbar.php'); ?>
+        <?php include_once('navbar.php'); ?>
         <section class="jumbotron">
             <div id="main_img_row" class="container">
-                <a href="#"><img src="img/elon_musk.gif" class="mx-auto" id="main_img" /></a>
+                <img src="img/elon_musk.gif" class="mx-auto" id="main_img" />
             </div>
         </section>
         <section class="text-center" id="main_logo">
