@@ -27,12 +27,11 @@ li {
 }
 
 .fa {
-    padding: 20px;
     font-size: 30px;
     width: 75px;
     text-align: center;
     text-decoration: none;
-    margin: 5px 10px;
+    margin: 5px 2px;
 }
 
 .fa:hover {
