@@ -24,16 +24,16 @@ vid_link VARCHAR(256) NOT NULL
 
 /* Example Course */
 INSERT INTO courses (id, school, course_name, course_code, professor)
-VALUES ('', 'University of Connecticut', 'Operations Management', 'OPIM 3104', 'Hongfei and Mohsen');
+VALUES ('chunthsuzz5i', 'University of Connecticut', 'Operations Management', 'OPIM 3104', 'Hongfei and Mohsen');
 
 INSERT INTO courses_topics (course_id, topic)
-VALUES (1, 'Decision making tools');
+VALUES ('chunthsuzz5i', 'Decision making tools');
 
 INSERT INTO courses_topics (course_id, topic)
-VALUES (1, 'Forecasting');
+VALUES ('chunthsuzz5i', 'Forecasting');
 
 INSERT INTO courses_topics (course_id, topic)
-VALUES (1, 'Project Management');
+VALUES ('chunthsuzz5i', 'Project Management');
 
 INSERT INTO topic_vids (topic_id, vid_link)
-VALUES (1, '');
+VALUES (2, 'Wo5YWXDRXv8');
