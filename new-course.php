@@ -29,29 +29,29 @@
         <section>
             <h2 class="text-center my-5">Add a Course</h2>
             <div class="container mt-3">
-                <form action="/add-course.php">
+                <form method="POST" action="add-course.php">
                     <div class="form-group row">
                         <label for="school" class="col-sm-2 col-form-label">School:</label>
                         <div class="col-sm-10">
-                            <input type="text" class="form-control" id="school" placeholder="School">
+                            <input type="text" class="form-control" id="school" name="school" placeholder="School">
                         </div>
                     </div>
                     <div class="form-group row">
                         <label for="course_name" class="col-sm-2 col-form-label">Course Name:</label>
                         <div class="col-sm-10">
-                            <input type="text" class="form-control" id="course_name" placeholder="Course Name">
+                            <input type="text" class="form-control" id="course_name" name="course_name" placeholder="Course Name">
                         </div>
                     </div>
                     <div class="form-group row">
                         <label for="course_code" class="col-sm-2 col-form-label">Course Code:</label>
                         <div class="col-sm-10">
-                            <input type="text" class="form-control" id="course_code" placeholder="Course Code">
+                            <input type="text" class="form-control" id="course_code" name="course_code" placeholder="Course Code">
                         </div>
                     </div>
                     <div class="form-group row">
                         <label for="professor" class="col-sm-2 col-form-label">Professor:</label>
                         <div class="col-sm-10">
-                            <input type="text" class="form-control" id="professor" placeholder="Professor">
+                            <input type="text" class="form-control" id="professor" name="professor" placeholder="Professor">
                         </div>
                     </div>
                     <div class="form-group row">
