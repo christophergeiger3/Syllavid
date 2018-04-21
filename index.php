@@ -30,11 +30,11 @@
                     <a href="#" class="btn btn-secondary my-2">Contact Us</a>
             </div>
         </section>
+        <footer class="footer">
+          <a href="#"><span class="text-muted float-right" style="margin-right: 1%">Terms of Use</span></a>
+          <a href="#"><span class="text-muted float-right" style="margin-right: 2%">Privacy Policy</span></a>
+          <a href="#"><span class="text-muted float-right" style="margin-right: 2%">Donate</span></a>
+          <a href="#"><span class="text-muted float-right" style="margin-right: 2%">About</span></a>
+        </footer>
     </body>
-    <footer class="footer">
-      <a href="#"><span class="text-muted float-right" style="margin-right: 1%">Terms of Use</span></a>
-      <a href="#"><span class="text-muted float-right" style="margin-right: 2%">Privacy Policy</span></a>
-      <a href="#"><span class="text-muted float-right" style="margin-right: 2%">Donate</span></a>
-      <a href="#"><span class="text-muted float-right" style="margin-right: 2%">About</span></a>
-    </footer>
 </html>
