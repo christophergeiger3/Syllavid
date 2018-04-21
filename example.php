@@ -27,8 +27,7 @@
                   </tr>
                   <tr>
                     <td>Unit 2: Forecasting</td>
-                    <td><img class="thumbnail" href="/img/thumbnail_1.jpg"></img></td>
-                    <!-- <td>YouTube videos</td> -->
+                    <td><iframe class="embed-responsive-item" src="https://www.youtube.com/embed/Wo5YWXDRXv8"></iframe></td>
                   </tr>
                   <tr>
                     <td>Unit 3: Project Management</td>
