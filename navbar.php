@@ -5,7 +5,6 @@
             <div class="navbar-header">
                 <a class="navbar-brand" style="font-size: 1.5em" href="/">Syllavid</a>
             </div>
-            <a href="/courses" class="btn btn-primary">Video Courses</a>
             <form class="navbar-form" role="search">
                 <div class="input-group row">
                     <a href="courses" class="btn btn-primary mr-2">Video Courses</a>
