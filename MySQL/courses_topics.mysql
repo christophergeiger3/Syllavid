@@ -1,5 +1,0 @@
-CREATE TABLE courses_topics (
-id INT(6) AUTO_INCREMENT PRIMARY KEY,
-course_id INT(6) NOT NULL,
-topic VARCHAR(40) NOT NULL
-)

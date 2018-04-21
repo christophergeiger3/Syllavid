@@ -1,7 +1,0 @@
-CREATE TABLE courses (
-id INT(6) AUTO_INCREMENT PRIMARY KEY,
-school VARCHAR(40) NOT NULL,
-course_code VARCHAR(40) NOT NULL,
-course_name VARCHAR(40) NOT NULL,
-professor VARCHAR(40) NOT NULL
-)
