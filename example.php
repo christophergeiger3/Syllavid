@@ -27,6 +27,7 @@
                   </tr>
                   <tr>
                     <td>Unit 2: Forecasting</td>
+                    <td><img class="thumbnail" href="/img/thumbnail_1.jpg"></img></td>
                     <!-- <td>YouTube videos</td> -->
                   </tr>
                   <tr>
