@@ -15,6 +15,10 @@ li {
   margin-bottom: 2%;
 }
 
+#mission {
+  margin-left: 2%
+}
+
 .thumbnail {
   border: 1px solid #ddd;
   border-radius: 4px;

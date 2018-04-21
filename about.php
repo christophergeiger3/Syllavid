@@ -17,11 +17,14 @@
         <br></br>
         <div class="modal-body row">
           <div class="col-md-6">
-            <!-- Your first column here -->
-            <div class="container about-text" id="mission">
-              <h2>Mission Statement:</h2>
-              <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut</p>
+            <div class="container about-text">
+              <h2>Mission:</h2>
+              <div id="mission">
+                <h5>Democratize education by creating free courses for anyone's curriculum.</h5>
+                <h5>Anyone can contribute, by linking YouTube videos, readings, Quizlets, games, and more.</h5>
+              </div>
             </div>
+            <br></br>
             <div class="container about-text" id="about-video">
               <h2>Values:</h2>
               <ul>
@@ -29,7 +32,7 @@
                 <li>Accessible to everyone</li>
                 <li>Collaborative environment</li>
                 <li>Dynamic resources</li>
-                <li>Emphasizes purpose</li>
+                <li>Emphasize purpose</li>
                 <li>Gamification of learning</li>
                 </h5>
             </ul>
