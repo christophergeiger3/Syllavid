@@ -27,7 +27,7 @@
                 <h1 class="jumbotron-heading" style="color: #007bff">Syllavid</h1>
                 <p class="lead text-muted">Resources for your courses, free, forever.</p>
                     <a href="about.php" class="btn btn-primary my-2">Learn More</a>
-                    <a href="mailto:team@syllavid.com" class="btn btn-secondary my-2">Contact Us</a>
+                    <a href="contact.php" class="btn btn-secondary my-2">Contact Us</a>
             </div>
         </section>
         <footer class="footer">
