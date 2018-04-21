@@ -54,3 +54,9 @@ img {
     -moz-box-shadow: 0 0 87px 14px rgba(0,0,0,0.28);
     box-shadow: 0 0 87px 14px rgba(0,0,0,0.28);
 }
+
+/* Remove 000webhost watermark */
+div a[href^="https://www.000webhost.com/"] img
+{
+    display: none;
+}
