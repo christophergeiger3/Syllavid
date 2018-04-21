@@ -25,7 +25,7 @@
         <section class="text-center" id="main_logo">
             <div class="container">
                 <h1 class="jumbotron-heading">Syllavid</h1>
-                <p class="lead text-muted">Videos for your courses, from the best, for free, forever.</p>
+                <p class="lead text-muted">Resources for your courses, free, forever.</p>
                     <a href="#" class="btn btn-primary my-2">Learn More</a>
                     <a href="#" class="btn btn-secondary my-2">Contact Us</a>
             </div>
