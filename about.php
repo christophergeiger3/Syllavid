@@ -24,7 +24,15 @@
             </div>
             <div class="container about-text" id="about-video">
               <h2>Values:</h2>
-              <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut</p>
+              <ul>
+                <h5>
+                <li>Accessible to everyone</li>
+                <li>Collaborative environment</li>
+                <li>Dynamic resources</li>
+                <li>Emphasizes purpose</li>
+                <li>Gamification of learning</li>
+                </h5>
+            </ul>
             </div>
           </div>
           <div class="col-md-6">

@@ -11,6 +11,9 @@ img {
     height: auto;
 }
 
+li {
+  margin-bottom: 2%;
+}
 
 .thumbnail {
   border: 1px solid #ddd;
