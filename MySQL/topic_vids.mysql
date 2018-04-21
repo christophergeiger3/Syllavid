@@ -1,0 +1,5 @@
+CREATE TABLE topic_vids (
+id INT(6) AUTO_INCREMENT PRIMARY KEY,
+topic_id INT(6) NOT NULL,
+vid_link VARCHAR(256) NOT NULL
+)
