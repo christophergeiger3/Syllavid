@@ -22,12 +22,8 @@
               <h2>Mission Statement:</h2>
               <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut</p>
             </div>
-            <div class="container about-text" id="values">
-              <h2>Mission Statement:</h2>
-              <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut</p>
-            </div>
             <div class="container about-text" id="about-video">
-              <h2>Mission Statement:</h2>
+              <h2>Values:</h2>
               <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut</p>
             </div>
           </div>
