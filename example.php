@@ -15,23 +15,44 @@
     <body>
         <?php include_once('navbar.php'); ?>
         <section>
-            <div class="container">
+          <br></br>
+          <div class="container row">
+            <div class="col-md-2">
             </div>
+            <div class="col-md-6">
+              <p style="padding: 0"> Operations Management </p>
+              <p style="padding: 0"> OPIM 3104 </p>
+              <p> University of Connecticut </p>
+              <p> The purpose of this course is to learn conventional techniques for inventory management to efficiently operate a business that imports and exports products. </p>
+            </div>
+          </div>
+
             <br></br>
             <div class="container">
               <table class="table table-bordered">
                 <tbody>
                   <tr>
                     <td>Unit 1: Decision making tools</td>
-                    <td>Resources: videos, texts, websites, links to documentaries, books</td>
+                    <td>
+                      <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/ydvnVw80I_8"></iframe>
+                      <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/tbv9E9D2BRQ"></iframe>
+                      <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/NQ-mYn9fPag"></iframe>
+                    </td>
                   </tr>
                   <tr>
                     <td>Unit 2: Forecasting</td>
-                    <td><iframe class="embed-responsive-item" src="https://www.youtube.com/embed/Wo5YWXDRXv8"></iframe></td>
+                    <td>
+                      <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/Wo5YWXDRXv8"></iframe>
+                      <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/k_HN0wOKDd0"></iframe>
+                      <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/DipOB2H6ick"></iframe>
+                    </td>
                   </tr>
                   <tr>
                     <td>Unit 3: Project Management</td>
-                    <td>YouTube videos</td>
+                    <td>
+                      <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/-TDh-5n90vk"></iframe>
+                      <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/2124ZV4wbQ8"></iframe>
+                    </td>
                   </tr>
                   <tr>
                     <td>Exam Review: Units 1, 2 and 3</td>

@@ -20,8 +20,8 @@
             <div class="container about-text">
               <h2>Mission:</h2>
               <div id="mission">
-                <h5>Democratize education by creating free courses for anyone's curriculum.</h5>
-                <h5>Anyone can contribute, by linking YouTube videos, readings, Quizlets, games, and more.</h5>
+                <h5>Democratize education by creating free online courses for any curriculum.</h5>
+                <h5>Anyone can contribute by linking YouTube videos, readings, Quizlets, games and more.</h5>
               </div>
             </div>
             <br></br>
