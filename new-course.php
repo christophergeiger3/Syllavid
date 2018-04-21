@@ -4,6 +4,7 @@
         <title>Syllavid</title>
         <!--<link rel="icon" type="image/png" href="assets/icon.png">-->
         <link rel="stylesheet" type="text/css" href="stylesheet.css">
+
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
@@ -14,32 +15,27 @@
     </head>
     <body>
         <?php include_once('navbar.php'); ?>
-        <section>
+        <section class="jumbotron p-4">
+          <br></br>
             <div class="container">
+                <img src="img/elon_musk.gif" class="mx-auto img-responsive" id="main_img" width="600" />
             </div>
-            <br></br>
+          <br></br>
+        </section>
+        <section class="text-center" id="main_logo">
             <div class="container">
-              <table class="table table-bordered">
-                <tbody>
-                  <tr>
-                    <td>Unit 1: Decision making tools</td>
-                    <td>Resources: videos, texts, websites, links to documentaries, books</td>
-                  </tr>
-                  <tr>
-                    <td>Unit 2: Forecasting</td>
-                    <!-- <td>YouTube videos</td> -->
-                  </tr>
-                  <tr>
-                    <td>Unit 3: Project Management</td>
-                    <td>YouTube videos</td>
-                  </tr>
-                  <tr>
-                    <td>Exam Review: Units 1, 2 and 3</td>
-                    <td>Student notes, study guides, price questions</td>
-                  </tr>
-                </tbody>
-              </table>
+                <h1 class="jumbotron-heading">Syllavid</h1>
+                <p class="lead text-muted">Resources for your courses, free, forever.</p>
+                    <a href="#" class="btn btn-primary my-2">Learn More</a>
+                    <a href="#" class="btn btn-secondary my-2">Contact Us</a>
             </div>
         </section>
     </body>
+    <footer class="footer">
+      <a href="#"><span class="text-muted float-right" style="margin-right: 1%">Terms of Use</span></a>
+      <a href="#"><span class="text-muted float-right" style="margin-right: 2%">Privacy Policy</span></a>
+      <a href="#"><span class="text-muted float-right" style="margin-right: 2%">Donate</span></a>
+      <a href="#"><span class="text-muted float-right" style="margin-right: 2%">About</span></a>
+    </footer>
 </html>
+
