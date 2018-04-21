@@ -23,13 +23,14 @@
         <section class="text-center" id="main_logo">
             <div class="container">
                 <h1 class="jumbotron-heading">Syllavid</h1>
-                <p class="lead text-muted">Videos from the best in your field, free, on demand, forever.<p>
-                    <a href="#" class="btn btn-primary my-2">Learn More</a>
-                    <a href="#" class="btn btn-secondary my-2">Contact Us</a>
-                </p>
-            </div>
-            <div class="container">
+                <p class="lead text-muted">Videos from the best in your field, free, on demand, forever.</p>
             </div>
         </section>
+        <div class="container sticky-bottom">
+          <div style="position: absolute; left: 0px; bottom: 0px" class="container sticky-bottom-">
+            <a href="#" class="btn btn-primary my-2">Learn More</a>
+            <a href="#" class="btn btn-secondary my-2">Contact Us</a>
+          </div>
+        </div>
     </body>
 </html>
