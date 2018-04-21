@@ -20,7 +20,7 @@
                 <h2 class="text-primary my-4 text-center">Syllavids</h2>
                 <div class="row mt-6 mx-5">
                     <div class="col-sm-3">
-                        <a href="#" class="btn btn-secondary btn-lg my-2 float-right">New Course</a>
+                        <a href="new-course" class="btn btn-secondary btn-lg my-2 float-right">New Course</a>
                     </div>
                     <div class="col-sm-9 pr-5">
                         <?php
@@ -42,7 +42,7 @@
 
                             if ($result->num_rows > 0) {
                                 ?>
-                                <table class="table">
+                                <table class="table table-hover">
                                     <thead>
                                         <tr>
                                             <th>School</th>
