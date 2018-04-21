@@ -16,9 +16,11 @@
     <body>
         <?php include_once('navbar.php'); ?>
         <section class="jumbotron p-4">
+          <br></br>
             <div class="container">
                 <img src="img/elon_musk.gif" class="mx-auto img-responsive" id="main_img" width="600" />
             </div>
+          <br></br>
         </section>
         <section class="text-center" id="main_logo">
             <div class="container">
