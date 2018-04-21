@@ -23,10 +23,16 @@
         <section class="text-center" id="main_logo">
             <div class="container">
                 <h1 class="jumbotron-heading">Syllavid</h1>
-                <p class="lead text-muted">Videos from the best in your field, free, on demand, forever.</p>
+                <p class="lead text-muted">Videos for your courses, from the best, for free, forever.</p>
                     <a href="#" class="btn btn-primary my-2">Learn More</a>
                     <a href="#" class="btn btn-secondary my-2">Contact Us</a>
             </div>
         </section>
     </body>
+    <footer class="footer">
+      <a href="#"><span class="text-muted float-right" style="margin-right: 1%">Terms of Use</span></a>
+      <a href="#"><span class="text-muted float-right" style="margin-right: 2%">Privacy Policy</span></a>
+      <a href="#"><span class="text-muted float-right" style="margin-right: 2%">Donate</span></a>
+      <a href="#"><span class="text-muted float-right" style="margin-right: 2%">About</span></a>
+    </footer>
 </html>
