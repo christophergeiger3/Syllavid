@@ -4,8 +4,7 @@ id VARCHAR(12) PRIMARY KEY,
 school VARCHAR(40) NOT NULL,
 course_name VARCHAR(40) NOT NULL,
 course_code VARCHAR(40) NOT NULL,
-professor VARCHAR(40) NOT NULL,
-course_link VARCHAR(40) NOT NULL
+professor VARCHAR(40) NOT NULL
 );
 
 /* Adding Courses_Topics Table */
@@ -37,3 +36,9 @@ VALUES ('chunthsuzz5i', 'Project Management');
 
 INSERT INTO topic_vids (topic_id, vid_link)
 VALUES (2, 'Wo5YWXDRXv8');
+
+INSERT INTO courses (id, school, course_name, course_code, professor)
+VALUES ('chun54uzz5i', 'University of Connecticut', 'Management in Interpersonal Behavior', 'MGMT 3101', 'Travis Grosser');
+
+INSERT INTO courses (id, school, course_name, course_code, professor)
+VALUES ('chun532uzz5i', 'Stanford University', 'How to Start a Startup', 'CS 183B', 'Sam Altman');

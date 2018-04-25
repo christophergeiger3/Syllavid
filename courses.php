@@ -24,57 +24,63 @@
                     </div>
                     <div class="col-sm-9 pr-5">
                         <?php
-                            $servername = "localhost";
-                            $username = "root";
-                            $password = "";
-                            $database = "id5480287_syllavid";
+                        $servername = "localhost";
+                        $username = "id5480287_admin";
+                        $password = "ChrisPatChris1";
+                        $database = "id5480287_syllavid";
 
-                            // Create connection
-                            $conn = new mysqli($servername, $username, $password, $database);
+                        // Create connection
+                        $conn = new mysqli($servername, $username, $password, $database);
 
-                            // Check connection
-                            if ($conn->connect_error) {
-                                die("Connection failed: " . $conn->connect_error);
-                            }
+                        // Check connection
+                        if ($conn->connect_error) {
+                            die("Connection failed: " . $conn->connect_error);
+                        }
 
-                            $sql = "SELECT school, course_code, course_name, professor FROM courses";
-                            $result = $conn->query($sql);
+                        $sql = "SELECT school, course_code, course_name, professor FROM courses";
+                        $result = $conn->query($sql);
 
-                            if ($result->num_rows > 0) {
-                                ?>
-                                <table class="table table-hover">
-                                    <thead>
-                                        <tr>
-                                            <th>School</th>
-                                            <th>Course Code</th>
-                                            <th>Course Name</th>
-                                            <th>Professor</th>
-                                        </tr>
-                                    </thead>
-                                    <tbody>
-                                <?php
-                                // output data of each row
-                                while($row = $result->fetch_assoc()) {
-                                    ?>
+                        if ($result->num_rows > 0) {
+                            ?>
+                            <table class="table table-hover">
+                                <thead>
                                     <tr>
-                                        <td><?php echo $row["school"]; ?></td>
-                                        <td><?php echo $row["course_code"]; ?></td>
-                                        <td><?php echo $row["course_name"]; ?></td>
-                                        <td><?php echo $row["professor"]; ?></td>
+                                        <th>School</th>
+                                        <th>Course Code</th>
+                                        <th>Course Name</th>
+                                        <th>Professor</th>
                                     </tr>
+                                </thead>
+                                <tbody>
+                                    <?php
+                                    // output data of each row
+                                    while ($row = $result->fetch_assoc()) {
+                                        ?>
+                                        <tr class="clickable-row" data-href='example'>
+                                            <td><?php echo $row["school"]; ?></td>
+                                            <td><?php echo $row["course_code"]; ?></td>
+                                            <td><?php echo $row["course_name"]; ?></td>
+                                            <td><?php echo $row["professor"]; ?></td>
+                                        </tr>
+                                    <script>
+                                        jQuery(document).ready(function ($) {
+                                            $(".clickable-row").click(function () {
+                                                window.location = $(this).data("href");
+                                            });
+                                        });
+                                    </script>
                                     <?php
                                 }
                                 ?>
-                                    </tbody>
-                                </table>
-                                <?php
-                            }
-                            else {
-                                ?>
-                                <h3 class="mx-auto">No Courses Available</h3>
-                                <?php
-                            }
-                            $conn->close();
+                                </tbody>
+                            </table>
+                            <?php
+                        } else {
+                            ?>
+                            <h3 class="text-center">No Courses Available</h3>
+                            <?php
+                        }
+                        $conn->close();
                         ?>
                     </div>
                 </div>
